@@ -29,13 +29,23 @@ nav span {
 .logo {
   display: flex;
   justify-content: flex-start;
-  height: 50px;
-    padding-left: 10px;
-    content: 150px;
   }
 
 .navigation {
 display: flex;
 justify-content: flex-end;
+
+}
+
+.Missionpic {
+
+  width: 50%;
+  height: 700px;
+  padding-top: 40px;
+  display: flex;
+  align-self: center;
+}
+
+.moving {
 
 }
