@@ -7,6 +7,7 @@
   height: 69px;
   border-bottom: 1px solid seashell;
   align-items: center;
+  background-color: black;
 }
 
 body {
@@ -25,7 +26,6 @@ nav span {
   padding: 20px 10px;
 }
 
-
 .logo {
   display: flex;
   justify-content: flex-start;
@@ -38,14 +38,26 @@ justify-content: flex-end;
 }
 
 .Missionpic {
-
-  width: 50%;
-  height: 700px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
   padding-top: 40px;
-  display: flex;
-  align-self: center;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
 }
 
-.moving {
+.black-bground1 {
 
+  text-align: center;
+ padding-left: 500px;
+ background-color: black;
+}
+
+.black-bground2 {
+  text-align: center;
+height: 77px;
+padding-right: 500px;
+background-color: black;
 }
